@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;AAEV,GAAI;EACH,SAAS,EAAC,IAAI;EACd,MAAM,EAAC,IAAI",
+"sources": ["../scss/basic-elements.scss"],
+"names": [],
+"file": "basic-elements.css"
+}

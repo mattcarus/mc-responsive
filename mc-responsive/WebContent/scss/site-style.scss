@@ -1,0 +1,30 @@
+/* HSL */
+$color1: hsla(4%, 9%, 38%, 1);
+$color2: hsla(330%, 2%, 19%, 1);
+$color3: hsla(62%, 52%, 86%, 1);
+$color4: hsla(79%, 40%, 84%, 1);
+$color5: hsla(180%, 14%, 83%, 1);
+
+/* RGB */
+$color1: rgba(105, 89, 88, 1);
+$color2: rgba(50, 48, 49, 1);
+$color3: rgba(237, 238, 201, 1);
+$color4: rgba(221, 231, 199, 1);
+$color5: rgba(206, 218, 218, 1);
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Source+Code+Pro');
+
+body {
+	background-color: $color5;
+	color: $color2;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $color1;
+	font-family: 'Open Sans', sans-serif;
+}
+
+code {
+	font-family: 'Source Code Pro', monospace;
+}
