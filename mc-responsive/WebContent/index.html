@@ -4,10 +4,25 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/main.css" rel="stylesheet" />
-<link href="css/site-style.css" rel="stylesheet" />
 <title>mc-responsive</title>
 </head>
 <body>
+  <nav class="fixed-top">
+  	<ul>
+  	  <li class="brand"><a href="#">mc-responsive</a></li>
+  	  <li><a href="#1">Section 1</a></li>
+  	  <li><a href="#2">Section 2</a></li>
+	  <li class="dropdown">
+	    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+	    <div class="dropdown-content">
+	      <a href="#">Link 1</a>
+	      <a href="#">Link 2</a>
+	      <a href="#">Link 3</a>
+	    </div>
+	  </li>
+  	  <li class="right"><a href="#contact">Contact</a></li>
+  	</ul>
+  </nav>
   <div class="row">
     <div class="col-12">
       <h1>mc-responsive</h1>
@@ -25,10 +40,19 @@
       </code>
     </div>
     <div class="col-3">
-      <h2>Col 3</h2>
+      <h2>Lists</h2>
+      <ul>
+      	<li>This is an un-numbered list</li>
+      	<li>with a few items</li>
+      </ul>
+      <ol>
+      	<li>And this is a numbered list</li>
+      	<li>with just 2 items</li>
+      </ol>
     </div>
     <div class="col-3">
       <h2>Col 4</h2>
+      <p>Here is a <a href="#">link</a> to some stuff...
     </div>
   </div>
 </body>

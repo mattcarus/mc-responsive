@@ -12,16 +12,28 @@ $color3: rgba(237, 238, 201, 1);
 $color4: rgba(221, 231, 199, 1);
 $color5: rgba(206, 218, 218, 1);
 
+$site-colours: (
+  'primary': #323031, 		// Jet - black
+  'accent': #CEDADA,		// Gainsboro - v light blue		
+  'secondary': #695958,		// Wenge - Dark Brown
+  'foreground': #DDE7C7,	// Bone - v light green
+  'background': #EDEEC9		// Pale Spring Bud - Cream
+);
+
+@function site-colour($key: 'primary') {
+  @return map-get($site-colours, $key);
+}
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Source+Code+Pro');
 
 body {
-	background-color: $color5;
-	color: $color2;
+	background-color: site-colour('background');
+	color: site-colour('primary');
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: $color1;
+	color: site-colour('secondary');
 	font-family: 'Open Sans', sans-serif;
 }
 
