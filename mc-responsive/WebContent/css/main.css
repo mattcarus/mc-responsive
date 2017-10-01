@@ -26,6 +26,9 @@ code {
 /* RGB */
 /* SCSS */
 /* SCSS */
+body {
+  margin: 0; }
+
 img {
   max-width: 100%;
   height: auto; }
@@ -148,7 +151,7 @@ nav ul li a.active {
 
 @media screen and (max-width: 600px) {
   nav ul li.right,
-  nav ul li.dropdown,
+  nav ul li.dropdown .dropbtn,
   nav ul li {
     float: none; } }
 
